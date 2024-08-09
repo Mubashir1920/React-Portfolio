@@ -6,7 +6,7 @@
 
 body {
   background-color: black;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Roslindale Display Condensed';
   color: white;
 }
 
@@ -19,7 +19,31 @@ h5::selection,
 h6::selection,
 p::selection,
 a::selection,
-span::selection{
-  background-color: rgb(168 85 247);
+span::selection {
+  background-color: #a855f7;
   color: white;
+
 }
+.slide-out {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #a955f7;
+  transform-origin: top;
+  z-index: 10;
+
+}
+
+.slide-in {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #a955f7;
+  transform-origin: bottom;
+  z-index: 10;
+}
+

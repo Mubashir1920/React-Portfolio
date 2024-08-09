@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link} from 'react-router-dom';
 import ProfilePic from '../assets/mubashir-min.webp'
 
 
 const Header = () => {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+    
 
     return (
 
@@ -12,10 +13,10 @@ const Header = () => {
             <header className="bg-black p-4 flex  items-center justify-between">
                 <div className="flex items-center space-x-4">
                     <img src={ProfilePic} alt="Avatar" className="w-10 h-10 rounded-full" />
-                    <h1 className="text-xl text-white font-semibold">Mubashir | Portfolio</h1>
+                    <Link to='/' className="text-xl text-white font-semibold">Mubashir | Portfolio</Link>
                 </div>
                 <nav className="hidden font-semibold text-white md:flex space-x-8">
-                    <Link to='/' className="hover:overline">TechStack</Link>
+                    <Link  to='/TechStack' className="hover:overline">TechStack</Link>
                     <Link to='/' className="hover:underline">Projects</Link>
                     <Link to='/' className="hover:overline">Experience</Link>
                     <Link to='/' className="hover:underline">About</Link>
@@ -32,7 +33,7 @@ const Header = () => {
             </header>
             {isMobileMenuOpen &&
                 <nav id="mobile-menu" className=" fixed text-center top-28 left-0 w-[100%]  bg-black text-white p-4 space-y-4">
-                    <Link onClick={() => setIsMobileMenuOpen(prevState => !prevState)} to='/' className="block hover:underline">TechStack</Link>
+                    <Link onClick={() => setIsMobileMenuOpen(prevState => !prevState)} to='/TechStack' className="block hover:underline">TechStack</Link>
                     <Link onClick={() => setIsMobileMenuOpen(prevState => !prevState)} to='/' className="block hover:underline">Projects</Link>
                     <Link onClick={() => setIsMobileMenuOpen(prevState => !prevState)} to='/' className="block hover:underline">Experience</Link>
                     <Link onClick={() => setIsMobileMenuOpen(prevState => !prevState)} to='/' className="block hover:underline">About</Link>

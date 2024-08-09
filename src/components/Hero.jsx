@@ -3,7 +3,7 @@ import React from 'react';
 const Hero = () => {
     return (
         <div className="container mx-auto   ">
-            <div className="bg-black text-white mt-36 md:mt-48 lg:mt-36 flex items-center justify-center px-4">
+            <div className=" text-white mt-36 md:mt-48 lg:mt-36 flex items-center justify-center px-4">
                 <div className="text-center">
                     <div className="flex items-center justify-center mb-4">
                         <div className="w-3 h-3 bg-white rounded-full"></div>
