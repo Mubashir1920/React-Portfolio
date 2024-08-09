@@ -6,7 +6,7 @@
 
 body {
   background-color: black;
-  font-family: 'Roslindale Display Condensed';
+  font-family: 'Poppins' , 'sans-serif';
   color: white;
 }
 
@@ -46,4 +46,5 @@ span::selection {
   transform-origin: bottom;
   z-index: 10;
 }
+
 

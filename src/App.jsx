@@ -5,7 +5,9 @@ import Footer from './components/Footer';
 import TechStack from './Pages/TechStack';
 import Home from './Pages/Home';
 import { AnimatePresence } from 'framer-motion';
-
+import Projects from './Pages/Projects';
+import Contact from './Pages/Contact';
+import About from './Pages/About';
 function App() {
 
 
@@ -17,6 +19,9 @@ function App() {
         <Routes key={location.pathname} location={location} >
           <Route exact path='/' element={<Home />} />
           <Route exact path='/TechStack' element={<TechStack />} />
+          <Route exact path='/Projects' element={<Projects />} />
+          <Route exact path='/about' element={<About />} />
+          <Route exact path='/Contact' element={<Contact />} />
         </Routes>
       </AnimatePresence>
       <Footer />
