@@ -5,7 +5,7 @@ import { FaTwitter, FaLinkedinIn, FaGithub, FaHeart } from 'react-icons/fa';
 const Footer = () => {
     const currentYear = new Date().getFullYear();
     return (
-        <footer className="bg-gray-900 fixed bottom-0 left-0 w-[100%]  text-white text-center py-4">
+        <footer className="bg-gray-900   w-[100%]  text-white text-center py-4">
             <div className="text-md flex justify-center space-x-4 mb-3">
                 <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-400">
                     <FaTwitter size={19} />

@@ -23,9 +23,9 @@ const Header = () => {
                     <Link to='/about' className="hover:underline">About</Link>
                     <Link to='/contact' className="hover:overline">Contact</Link>
                 </nav>
-                <button className="hidden md:block bg-purple-600 hover:bg-purple-700 text-white px-4 py-2 rounded-full">
+                <Link to='/resume' className="hidden md:block bg-purple-600 hover:bg-purple-700 text-white px-4 py-2 rounded-full">
                     Resume
-                </button>
+                </Link>
                 <button onClick={() => setIsMobileMenuOpen(prevState => !prevState)} id="menu-btn" className="md:hidden  flex flex-col items-center justify-center w-8 h-8">
                     <span className="block h-0.5 w-6 my-1 bg-white"></span>
                     <span className="block h-0.5 w-6 my-1 bg-white"></span>
@@ -45,7 +45,7 @@ const Header = () => {
             
                     <Link onClick={() => setIsMobileMenuOpen(prevState => !prevState)} to='/about' className="block hover:underline">About</Link>
                     <Link onClick={() => setIsMobileMenuOpen(prevState => !prevState)} to='/contact' className="block hover:underline">Contact</Link>
-                    <Link to='/' className="block w-[80%] bg-purple-600 hover:bg-purple-800 text-white text-center px-4  py-2 rounded-full">
+                    <Link to='/resume' onClick={() => setIsMobileMenuOpen(prevState => !prevState)}  className="block w-[80%] bg-purple-600 hover:bg-purple-800 text-white text-center px-4  py-2 rounded-full">
                         Resume
                     </Link>
                 </nav>
