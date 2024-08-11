@@ -4,9 +4,9 @@ import transition from '../Utilities/transition';
 
 const Home = () => {
     return (
-        <div>
-            <Hero />
-        </div>
+
+        <Hero />
+
     )
 }
 

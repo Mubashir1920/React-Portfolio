@@ -19,8 +19,8 @@ h5::selection,
 h6::selection,
 p::selection,
 a::selection,
-span::selection {
-  background-color: #a855f7;
+span::selection { 
+  background-color: #08000f;
   color: white;
 
 }

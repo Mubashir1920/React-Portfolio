@@ -4,13 +4,13 @@ import ContactImage from '../assets/contact.png'
 
 const Contact = () => {
   return (
-    <div className="container mx-auto flex justify-center flex-col  min-h-screen  text-white">
+    <div className="container py-12 mx-auto flex justify-center flex-col  min-h-screen  text-white">
       <div className='px-11 pt-10 lg:px-24  ' >
         <h2 className=" font-extrabold text-left lg:text-6xl  text-4xl ">Get <span className='text-purple-800' >In</span> Touch</h2>
         <p className='text-white text-md py-2' >Lets Discuss The Project . Preferably Email me at given Or Reach out to me on LinkedIn.</p>
 
       </div>
-      <div className="flex items-center pt-5  pb-10 justify-around w-[100%] ">
+      <div className="flex items-center pt-5  pb-20 justify-around w-[100%] ">
         {/* Left Section: Contact Form */}
         <div className="bg-[#1b1b32]  lg:w-[50%] md:w-[50%] p-10 rounded-lg shadow-lg ">
           <h1 className='text-white text-sm capitalize italic' >contact me at <a className='font-semibold' href="mailto:mubashir417@outlook.com">mubashir@417@outlook.com</a></h1>
