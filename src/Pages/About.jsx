@@ -28,7 +28,7 @@ const About = () => {
                 <div className='flex md:w-full mb-4 justify-start gap-10  ' >
                     <div className='relative hidden lg:block ml-10' >
                         <div class="absolute top-0 left-0 w-7 h-7 bg-white rounded-full"></div>
-                        <div class="ml-3 h-[110%] w-0.5 bg-gray-400"></div>
+                        <div class="ml-3 h-[110%] w-0.5  bg-gray-400"></div>
                     </div>
                     <ExperienceCard title={exp.title} period={exp.period} at={exp.at} description={exp.description} />
                 </div>

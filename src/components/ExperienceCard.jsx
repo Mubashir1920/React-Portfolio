@@ -8,7 +8,7 @@ const ExperienceCard = ({title , period , at , description}) => {
                 <div className='flex items-center justify-center px-2 '>
 
                     <div className='text-left '>
-                        <h4 className='text-lg md:text-2xl lg:text-xl ease-in-out italic font-bold text-red-500 duration-1000 capitalize'>{title}</h4>
+                        <h4 className='text-lg md:text-2xl lg:text-xl ease-in-out italic font-bold text-gray-400 stroke-slate-200 duration-1000 capitalize'>{title}</h4>
                     </div>
                 </div>
                 <div className='text-sm md:text-base text-right p-2 gap-4 ease-in-out duration-500'>
