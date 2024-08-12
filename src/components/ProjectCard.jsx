@@ -1,29 +1,33 @@
 import React from 'react';
-import ProjectImg from '../assets/project/Fitlog.png';
-import { FaGithub,FaExternalLinkAlt } from "react-icons/fa";
+import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
-const ProjectCard = () => {
+const ProjectCard = ({ project, src }) => {
+
+    console.log(src)
     return (
         <div className="relative bg-[#151030] p-6 rounded-xl max-w-sm">
-            <FaGithub size={38}  className='bg-black p-1 rounded-full absolute top-6 right-6 cursor-pointer ' />
-            <FaExternalLinkAlt size={20}  className='  absolute bottom-6 hover:text-black transition-colors right-5  cursor-pointer ' />
-            <div className="bg-[#151030] p-2 rounded-lg">
+            <a href={project.github} target='_blank' ><FaGithub size={38} className='bg-black p-1 rounded-full absolute top-6 right-6 cursor-pointer ' /></a>
+            <div className="bg-[#151030] p-2 ">
                 <img
-                    src={ProjectImg}
-                    alt="Car Rent"
-                    className="rounded-md"
+                    src={require(`../assets/project/${project.image}`)}
+                    alt={project.name}
+                    className="rounded-mdw-full h-[150px] rounded-xl object-cover"
                 />
             </div>
-            <h2 className="text-white text-xl font-semibold mt-4">Car Rent</h2>
+
+            <a href={project.link} target='_blank' className='flex items-center mt-4  ' >
+                <h2 className="text-white text-xl font-semibold hover:text-gray-200 transition-colors">{project.name}</h2>
+                <FaExternalLinkAlt size={20} className='cursor-pointer ml-3 ' />
+            </a>
             <p className="text-gray-400 text-sm mt-2">
-                Web-based platform that allows users to search, book, and manage car
-                rentals from various providers, providing a convenient and efficient
-                solution for transportation needs.
+                {project.desc}
             </p>
             <div className="mt-4 flex space-x-2">
-                <span className="text-xs font-medium text-[#6366F1]">#react</span>
-                <span className="text-xs font-medium text-[#10B981]">#mongodb</span>
-                <span className="text-xs font-medium text-[#EC4899]">#tailwind</span>
+                {project.techstack.map((tech, index) => (
+                    <span key={index} className="text-xs font-medium text-[#10B981]">#{tech}</span>
+
+                ))}
+
             </div>
         </div>
     );
