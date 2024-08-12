@@ -8,6 +8,7 @@ body {
   background-color: black;
   font-family: 'Poppins' , 'sans-serif';
   color: white;
+  /* color: #151030; */
 }
 
 body::selection,

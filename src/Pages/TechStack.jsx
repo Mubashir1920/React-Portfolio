@@ -2,7 +2,7 @@ import React from 'react'
 import transition from '../Utilities/transition';
 import { RiJavascriptFill, RiNextjsFill } from "react-icons/ri";
 import { FaReact, FaHtml5, FaCss3Alt, FaDatabase, FaNode, FaWordpress, FaGithub, FaAmazon, FaMicrosoft } from "react-icons/fa";
-import { SiMongodb, SiCplusplusbuilder, SiRedux,SiTailwindcss, SiExpress  } from "react-icons/si";
+import { SiMongodb, SiCplusplusbuilder, SiRedux, SiTailwindcss, SiExpress } from "react-icons/si";
 const TechStack = () => {
   return (
     <div className=' mx-auto px-8  container' >
@@ -32,7 +32,7 @@ const TechStack = () => {
             <li className='flex items-center mb-3 ' ><FaNode size={26} className='mr-2' />Node Js</li>
             <li className='flex items-center mb-3 ' ><SiExpress size={26} className='mr-2' />Express JS</li>
           </ul>
-         
+
         </div>
         <div className='mt-7 text-center  px-7 pb-6 box-border' >
           <h1 className='font-bold tracking-tight hover:text-white transition-all duration-200 hover:bg-black    px-4 text-xl cursor-pointer bg-white text-black py-1 rounded-md ' >Databases</h1>
@@ -40,15 +40,21 @@ const TechStack = () => {
             <li className='flex items-center mb-3 ' ><SiMongodb size={26} className='mr-2' />Mongo DB</li>
             <li className='flex items-center mb-3 ' ><FaDatabase size={26} className='mr-2' />Oracle DB</li>
           </ul>
-        </div>
-        <div className='mt-7 text-center  px-7 pb-6 box-border' >
           <h1 className='font-bold tracking-tight hover:text-white transition-all duration-200 hover:bg-black    px-4 text-xl cursor-pointer bg-white text-black py-1 rounded-md ' >CMS</h1>
           <ul className='my-5 text-lg' >
             <li className='flex items-center mb-3 ' ><FaWordpress size={26} className='mr-2' />WordPress</li>
           </ul>
+
+        </div>
+        <div className='mt-7 text-center  px-7 pb-6 box-border' >
+
           <h1 className='font-bold tracking-tight hover:text-white transition-all duration-200 hover:bg-black    px-4 text-xl cursor-pointer bg-white text-black py-1 rounded-md ' >Version Control</h1>
           <ul className='my-5 text-lg' >
             <li className='flex items-center mb-3 ' ><FaGithub size={26} className='mr-2' />Git</li>
+          </ul>
+          <h1 className='font-bold tracking-tight hover:text-white transition-all duration-200 hover:bg-black    px-4 text-xl cursor-pointer bg-white text-black py-1 rounded-md ' >Languages</h1>
+          <ul className='my-5 text-lg' >
+            <li className='flex items-center mb-3 ' ><SiCplusplusbuilder size={26} className='mr-2' />C++</li>
           </ul>
         </div>
         <div className='mt-7 text-center  px-7 pb-6 box-border' >
@@ -57,10 +63,7 @@ const TechStack = () => {
             <li className='flex items-center mb-3 ' ><FaAmazon size={26} className='mr-2' />AWS</li>
             <li className='flex items-center mb-3 ' ><FaMicrosoft size={22} className='mr-2' />Azure 365</li>
           </ul>
-          <h1 className='font-bold tracking-tight hover:text-white transition-all duration-200 hover:bg-black    px-4 text-xl cursor-pointer bg-white text-black py-1 rounded-md ' >Languages</h1>
-          <ul className='my-5 text-lg' >
-            <li className='flex items-center mb-3 ' ><SiCplusplusbuilder size={26} className='mr-2' />C++</li>
-          </ul>
+
         </div>
       </div>
 
