@@ -6,7 +6,7 @@
 
 body {
   background-color: black;
-  font-family: 'Poppins' , 'sans-serif';
+  font-family: 'Poppins', 'sans-serif';
   color: white;
   /* color: #151030; */
 }
@@ -21,11 +21,12 @@ h6::selection,
 p::selection,
 a::selection,
 span::selection,
-li::selection { 
+li::selection {
   background-color: #08000f;
   color: white;
 
 }
+
 .slide-out {
   position: fixed;
   bottom: 0;
@@ -51,15 +52,16 @@ li::selection {
 
 
 @keyframes Updown {
-  from{
+  from {
     transform: translateY(20px);
   }
-  to{
+
+  to {
     transform: translateY(-20px);
   }
-  
+
 }
 
-.contactImg{
-  animation: Updown infinite 1.5s forwards alternate ease-in-out  ;
+.contactImg {
+  animation: Updown infinite 1.5s forwards alternate ease-in-out;
 }

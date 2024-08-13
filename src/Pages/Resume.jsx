@@ -9,7 +9,7 @@ const Resume = () => {
             <a
                 href={MubashirPdf}
                 download={MubashirPdf}
-                className="mt-8 mb-4 px-6 py-2 bg-purple-800 text-white text-lg font-medium rounded-full hover:bg-purple-600"
+                className="mt-8 mb-4 px-6 py-2 bg-purple-800 text-white text-lg font-medium rounded-lg hover:bg-purple-700"
             >
                 Download CV
             </a>
@@ -23,7 +23,7 @@ const Resume = () => {
             <a
                 href={MubashirPdf}
                 download={MubashirPdf}
-                className="mt-8 mb-4 px-6 py-2 bg-purple-800 text-white text-lg font-medium rounded-full hover:bg-purple-600"
+                className="mt-8 mb-4 px-6 py-2 bg-purple-800 text-white text-lg font-medium rounded-lg hover:bg-purple-700"
             >
                 Download CV
             </a>
