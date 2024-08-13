@@ -24,19 +24,21 @@ const About = () => {
         <div className=' container mx-auto flex flex-col  px-10 pb-52  ' >
             <h1 className='text-3xl mt-16 font-semibold tracking-tight pb-5 pl-3 italic text-left ' >Professional Experience</h1>
 
-            {Experience.map(exp => (
-                <motion.dev
+            {Experience.map((exp,index) => (
+                <motion.div
                     initial={{ opacity: 0, x: 800 }}
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.5 }}
-                    className='flex md:w-full mb-4 justify-start gap-10  ' >
+                    className='flex md:w-full mb-4 justify-start gap-10  '
+                    key={index}
+                >
                     <div className='relative hidden lg:block ml-10'>
                         <div className="absolute top-0 left-0 w-7 h-7 bg-white rounded-full"></div>
                         <div className="ml-3 h-[110%] w-0.5 bg-gradient-to-b from-gray-400 to-transparent"></div>
                     </div>
 
                     <ExperienceCard title={exp.title} period={exp.period} at={exp.at} description={exp.description} />
-                </motion.dev>
+                </motion.div>
             ))}
 
 
