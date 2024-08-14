@@ -50,6 +50,12 @@ li::selection {
   z-index: 10;
 }
 
+.active{
+
+  color: rgb(208, 55, 255);
+
+  font-weight: bolder;
+}
 
 @keyframes Updown {
   from {
