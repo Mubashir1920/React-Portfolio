@@ -3,7 +3,7 @@ import React from 'react'
 const ExperienceCard = ({title , period , at , description}) => {
     return (
 
-        <div className='flex flex-col items-center justify-between bg-black shadow-[inset_4px_2px_110px_15px_#1a202c] text-gray-100 r border-gray-200  w-full md:w-8/12  h-auto rounded-2xl  py-2 px-2 md:px-4'>
+        <div className='flex flex-col items-center justify-between bg-[#0d0d0d]  text-gray-100 border border-[#0d0d0d] shadow-sm   w-full md:w-8/12  h-auto rounded-2xl  py-2 px-2 md:px-4'>
             <div className='w-full flex items-center justify-between'>
                 <div className='flex items-center justify-center px-2 '>
                     <div className='text-left '>

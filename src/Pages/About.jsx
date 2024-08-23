@@ -9,13 +9,13 @@ const About = () => {
     const Experience = [
         {
             title: "Freelance Website Development",
-            period: 'Oct 2023 - Jan 2024',
-            at: 'Upwork / Fiver / Independent',
+            period: 'Jan 2024 - Present',            
+            at: 'Upwork / Fiver',
             description: 'Worked on various projects, from e-commerce sites to custom CMS platforms, using technologies like JavaScript, React, and Node.js. My focus is on building efficient, scalable solutions that meet client needs.'
         },
         {
             title: "Lead Web Developer",
-            period: 'Jan 2024 - Present',
+            period: 'Oct 2023 - Jan 2024',
             at: 'Cyberwing.pk, Lahore',
             description: 'As the Lead Web Developer at Cyberwing, I was entrusted with spearheading the technological direction and execution of web projects. One of my primary achievements was the comprehensive overhaul of Cyberwing\'s website. '
         }

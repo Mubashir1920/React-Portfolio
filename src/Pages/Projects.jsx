@@ -5,8 +5,6 @@ import myProjects from '../Utilities/data';
 import { motion, AnimatePresence } from 'framer-motion';
 
 
-
-
 const Projects = () => {
   const staggerContainer = {
     hidden: { opacity: 0 },
@@ -30,10 +28,9 @@ const Projects = () => {
   const [selectedTab, setSelectedTab] = useState('All')
   const projectType = [
     'All',
-    'MERN Stack',
-    'React JS',
+    'Front-End',
+    'Full-Stack',
     'WordPress',
-    'HTML /CSS /JS'
   ]
 
   const ActiveTab = (tab) => {
@@ -43,14 +40,12 @@ const Projects = () => {
       ? myProjects
       : myProjects.filter((project) => {
         switch (tab) {
-          case 'MERN Stack':
-            return project.type === 'MERN';
+          case 'Front-End':
+            return project.type === 'Front-End';
           case 'WordPress':
             return project.type === 'WORDPRESS';
-          case 'React JS':
-            return project.type === 'REACTJS';
-          case 'HTML /CSS /JS':
-            return project.type === 'HTML';
+          case 'Full-Stack':
+            return project.type === 'Full-Stack';
           default:
             return false;
         }

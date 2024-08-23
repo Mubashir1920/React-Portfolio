@@ -1,13 +1,23 @@
 const myProjects = [
     //MERN STACK
     {
-        "name": "Romewheels",
+        "name": "Rome Wheels",
         "techstack": ["MongoDB", "Express.js", "ReactJs", "Node.js", "JWT", "Tailwind CSS"],
         "desc": "Romewheels is an online car rental platform built with the MERN stack, utilizing MongoDB for database management, Express.js and Node.js for the backend, and React.js for a dynamic user interface. JWT is used for secure authentication, and Tailwind CSS provides a sleek, responsive design.",
         "link": "https://romewheels.netlify.app",
         "github": "https://github.com/Mubashir1920",
         "image": "romewheels.png",
-        "type": "MERN"
+        "type": "Full-Stack"
+    },
+    //NextJS
+    {
+        "name": "Rome Rents",
+        "techstack": ["NextJs", "Cloudinary", "ReactJs"],
+        "desc": "RomeRents is a user-friendly platform built with Next.js, designed to simplify the process of listing and finding rental properties. Whether you're a landlord or a tenant, it offers an efficient and straightforward way to connect with potential renters or find your next home",
+        "link": "https://rome-rents.vercel.app/",
+        "github": "https://github.com/Mubashir1920",
+        "image": "RomeRents (6).jpeg",
+        "type": "Full-Stack"
     },
     //REACT JS
     {
@@ -17,7 +27,7 @@ const myProjects = [
         link: 'https://urbanedge.netlify.app',
         github: 'https://github.com/Mubashir1920',
         image: 'UrbanEdge.png',
-        type: 'REACTJS'
+        "type": "Front-End"
     },
     {
         name: 'Flavusion',
@@ -26,7 +36,7 @@ const myProjects = [
         link: 'https://flavusion.netlify.app',
         github: 'https://github.com/Mubashir1920',
         image: 'Flavusion.png',
-        type: 'REACTJS'
+        "type": "Front-End"
     },
     {
         "name": "FitGymLog",
@@ -35,7 +45,7 @@ const myProjects = [
         "link": "https://fitgymlog.netlify.app",
         "github": "https://github.com/Mubashir1920",
         "image": "Fitlog.png",
-        "type": "REACTJS"
+        "type": "Front-End"
     },
     {
         "name": "ProjectsHub",
@@ -44,12 +54,12 @@ const myProjects = [
         "link": "https://projectshub.netlify.app",
         "github": "https://github.com/Mubashir1920",
         "image": "Projectshub.png",
-        "type": "REACTJS"
+        "type": "Front-End"
     },
     // WORDPRESS 
     {
         "name": "Amina Art",
-        "techstack": ["WordPress","E-commerce Platform"],
+        "techstack": ["WordPress", "E-commerce Platform"],
         "desc": "aminart.shop is an online e-commerce store specializing in beaded bags in Pakistan. The website features a user-friendly interface and responsive design to showcase a wide range of beaded bags, offering a seamless shopping experience.",
         "link": "https://aminart.shop",
         "github": "https://github.com/Mubashir1920",
@@ -107,7 +117,7 @@ const myProjects = [
         "link": "https://github.com/Mubashir1920",
         "github": "https://github.com/Mubashir1920",
         "image": "foxapp-min.webp",
-        "type": "HTML"
+        "type": 'Front-End'
     },
     {
         "name": "AMN EATS",
@@ -116,7 +126,7 @@ const myProjects = [
         "link": "https://github.com/Mubashir1920",
         "github": "https://github.com/Mubashir1920",
         "image": "amneats-min.webp",
-        "type": "HTML"
+        "type": 'Front-End'
     },
 
     {
@@ -126,7 +136,7 @@ const myProjects = [
         "link": "https://tracalorie.netlify.app",
         "github": "https://github.com/Mubashir1920",
         "image": "tracalorie-min.webp",
-        "type": "HTML"
+        "type": 'Front-End'
     },
     {
         "name": "DrTank Landing Page",
@@ -135,7 +145,7 @@ const myProjects = [
         "link": "#",
         "github": "https://github.com/Mubashir1920",
         "image": "drtank-min.webp",
-        "type": "HTML"
+        "type": 'Front-End'
     },
     {
         "name": "Todolist App",
@@ -144,7 +154,7 @@ const myProjects = [
         "link": "https://taskend.netlify.app/",
         "github": "https://github.com/Mubashir1920",
         "image": "todolist-min.webp",
-        "type": "HTML"
+        "type": 'Front-End'
     }
 
 ]
