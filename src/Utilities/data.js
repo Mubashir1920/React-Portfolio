@@ -9,6 +9,15 @@ const myProjects = [
         "image": "romewheels.png",
         "type": "Full-Stack"
     },
+    {
+        "name": "Echo Notes",
+        "techstack": ["MongoDB", "Express.js", "ReactJs", "Node.js", "Tailwind CSS"],
+        "desc": "Echo Notes is a MERN Stack application designed for efficiently taking and managing notes. It offers a seamless user experience, leveraging MongoDB, Express, React, and Node.js to provide a reliable and responsive platform for organizing thoughts, tasks, and important information.",
+        "link": "hhttps://echonote.netlify.app/",
+        "github": "https://github.com/Mubashir1920",
+        "image": "Echonotes.png",
+        "type": "Full-Stack"
+    },
     //NextJS
     {
         "name": "Rome Rents",
