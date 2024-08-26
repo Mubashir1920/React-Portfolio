@@ -28,8 +28,8 @@ const Projects = () => {
   const [selectedTab, setSelectedTab] = useState('All')
   const projectType = [
     'All',
-    'Front-End',
     'Full-Stack',
+    'Front-End',
     'WordPress',
   ]
 
