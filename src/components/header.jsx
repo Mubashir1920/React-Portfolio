@@ -49,7 +49,7 @@ const Header = () => {
             </header>
 
             <nav ref={navref}
-                className={`${isMobileMenuOpen ? 'translate-x-0 ' : 'translate-x-[1000px]'} rounded-3xl fixed flex flex-col items-center gap-7 justify-center transition-transform duration-300 text-xl top-0 z-10 text-center w-[80%] h-[100dvh] bg-black right-0  text-white p-4 space-y-4`}
+                className={`${isMobileMenuOpen ? 'translate-x-0 ' : 'translate-x-[110%]'} rounded-3xl fixed flex flex-col items-center gap-7 justify-center transition-transform duration-300 text-xl top-0 z-10 text-center w-[80%] h-[100dvh] bg-black right-0  text-white p-4 space-y-4`}
             >
                 <div className='absolute top-16 right-10' >
                     <IoMdClose onClick={() => setIsMobileMenuOpen(false)} className='hover:rotate-180 duration-300 transition-transform text-white cursor-pointer' size={28} />
