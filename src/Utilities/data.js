@@ -1,4 +1,14 @@
 const myProjects = [
+    //NEXTJS
+    {
+        "name": "WrapXen",
+        "techstack": ["NextJs", "FullStack", "ReactJs", "WIX", "Tailwind CSS"],
+        "desc": "Wrapxen is an online store specializing in premium full-body laptop skins.The store is built using Next.js, ensuring a smooth shopping experience with fast loading times and seamless navigation. Wrapxen focuses on offering an intuitive, user-friendly experience from start to finish.",
+        "link": "https://wrapxen-mubashir1920s-projects.vercel.app/",
+        "github": "https://github.com/Mubashir1920",
+        "image": "wrapxen.png",
+        "type": "Full-Stack"
+    },
     //MERN STACK
     {
         "name": "Rome Wheels",
@@ -21,7 +31,7 @@ const myProjects = [
     //NextJS
     {
         "name": "Rome Rents",
-        "techstack": ["NextJs", "Cloudinary", "ReactJs"],
+        "techstack": ["NextJs", "Cloudinary", "ReactJs", "FullStack", "Tailwind CSS"],
         "desc": "RomeRents is a user-friendly platform built with Next.js, designed to simplify the process of listing and finding rental properties. Whether you're a landlord or a tenant, it offers an efficient and straightforward way to connect with potential renters or find your next home",
         "link": "https://rome-rents.vercel.app/",
         "github": "https://github.com/Mubashir1920",
