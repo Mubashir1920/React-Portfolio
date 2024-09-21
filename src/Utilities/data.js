@@ -9,6 +9,15 @@ const myProjects = [
         "image": "wrapxen.png",
         "type": "Full-Stack"
     },
+    {
+        "name": "Green Hands LandScaping",
+        "techstack": ["NextJs", "Front End", 'LandingPage', "Tailwind CSS"],
+        "desc": "Green Hands Land Scaping is a Well Quoted Company in US. They Provide Multiple House and Commercial Landscaping Services.",
+        "link": "https://greenhandslandscaping.vercel.app/",
+        "github": "https://github.com/Mubashir1920",
+        "image": "greenhands.png",
+        "type": "Front-End"
+    },
     //MERN STACK
     {
         "name": "Rome Wheels",
