@@ -10,9 +10,18 @@ const myProjects = [
         "type": "Full-Stack"
     },
     {
+        "name": "Activemen - Premium Men Sportswear",
+        "techstack": ["NextJs", "Front End", 'LandingPage', "Tailwind CSS"],
+        "desc": "Activemen is a Premium Mens Sports and Active Wear Clothes distributor based in USA Chicago. They want to boost their sales I worked closely with the client to identify key personas within the target audience and tailored the landing page sections . ",
+        "link": "https://activemen.vercel.app/",
+        "github": "https://github.com/Mubashir1920",
+        "image": "activemen.png",
+        "type": "Front-End"
+    },
+    {
         "name": "Green Hands LandScaping",
         "techstack": ["NextJs", "Front End", 'LandingPage', "Tailwind CSS"],
-        "desc": "Green Hands Land Scaping is a Well Quoted Company in US. They Provide Multiple House and Commercial Landscaping Services.",
+        "desc": "Green Hands Land Scaping is a Well Quoted Company in US. They Provide Multiple House and Commercial Landscaping Services.To Boost the Sales they wanted a Responsive well put together Landing Page for their Services",
         "link": "https://greenhandslandscaping.vercel.app/",
         "github": "https://github.com/Mubashir1920",
         "image": "greenhands.png",
