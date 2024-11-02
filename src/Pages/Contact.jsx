@@ -7,7 +7,7 @@ const Contact = () => {
     <div className="container py-12 mx-auto flex justify-center flex-col  min-h-screen  text-white">
       <div className='px-11 pt-10 lg:px-24  ' >
         <h2 className=" font-extrabold text-left lg:text-6xl  text-4xl ">Get In Touch</h2>
-        <p className='text-white text-md py-2' >Lets Discuss The Project . Preferably Email me at given Email Or Reach out to me on LinkedIn.</p>
+        <p className='text-white text-md py-2' >This Form does'nt work. But Your one Will Work . Let Connect and discuss the project</p>
       </div>
       <div className="flex items-center pt-5  pb-20 justify-around w-[100%] ">
         {/* Left Section: Contact Form */}

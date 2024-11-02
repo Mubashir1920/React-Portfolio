@@ -61,6 +61,7 @@ const TechStack = () => {
           <h1 className='font-bold tracking-tight hover:text-white transition-all duration-200 hover:bg-black    px-4 text-xl cursor-pointer bg-white text-black py-1 rounded-md ' >Languages</h1>
           <ul className='my-5 text-lg' >
             <li className='flex items-center mb-3 ' ><SiCplusplusbuilder size={26} className='mr-2' />C++</li>
+            <li className='flex items-center mb-3 ' ><RiJavascriptFill size={26} className='mr-2' />Javascript</li>
           </ul>
         </div>
         <div className='mt-7 text-center  px-7 pb-6 box-border' >

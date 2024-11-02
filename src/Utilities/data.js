@@ -104,6 +104,15 @@ const myProjects = [
         "type": "WORDPRESS"
     },
     {
+        "name": "Bayaan Band",
+        "techstack": ["WordPress", "Band"],
+        "desc": "Bayaan  is an alternative rock band from Lahore, Pakistan. It is the winning band of Pepsi Battle of the Bands Season 3 in 2018.Bayaan[11] started its musical journey through a popular music show in Pakistan, Nescafe Basement.[12] With Nescafe Basement, Bayaan released a few singles in Pakistan.",
+        "link": "https://bayaanofficial.com/",
+        "github": "#",
+        "image": "bayaan.png",
+        "type": "WORDPRESS"
+    },
+    {
         "name": "Opentech.pk",
         "techstack": ["WordPress"],
         "desc": "Opentech.pk is a professional website designed for a training institute, developed with WordPress. It features a clean, responsive design, providing information about various training programs and courses offered by the institute.",

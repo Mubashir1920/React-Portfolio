@@ -22,10 +22,11 @@ p::selection,
 a::selection,
 span::selection,
 li::selection {
-  background-color: #08000f;
+  background-color: #6600c5;
   color: white;
 
 }
+
 
 .slide-out {
   position: fixed;
@@ -52,7 +53,7 @@ li::selection {
 
 .active{
 
-  color: rgb(208, 55, 255);
+  color: #6600c5;
 
   font-weight: bolder;
 }
