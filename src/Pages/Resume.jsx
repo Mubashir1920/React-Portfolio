@@ -1,6 +1,6 @@
 import React from 'react'
-import MubashirPdf from '../Mubashir-CV.pdf'
-import CvImg from '../assets/cv.jpeg'
+import MubashirPdf from '../CV.pdf'
+import CvImg from '../assets/cv.png'
 import transition from '../Utilities/transition'
 
 const Resume = () => {
@@ -10,7 +10,7 @@ const Resume = () => {
                 href={MubashirPdf}
                 download={MubashirPdf}
                 className="mt-8 mb-4 px-6 py-2 bg-purple-800 text-white text-lg font-medium rounded-lg hover:bg-purple-700"
-            >
+            >               
                 Download CV
             </a>
             <div className="flex justify-center items-center flex-col mx-3 max-w-full">
