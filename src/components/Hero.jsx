@@ -12,11 +12,8 @@ const Hero = () => {
                     <h1 className="text-5xl sm:text-5xl md:text-6xl font-bold mt-4">
                         Hi, I'm <span className="text-purple-500">Mubashir</span>
                     </h1>
-                    <p className="text-lg font-thin sm:text-xl md:text-2xl mt-4">
-                        I  Develop <span className="font-normal">Sites</span>
-                    </p>
                     <p className="text-sm sm:text-base md:text-lg text-gray-300 italic mt-2">
-                        Full Stack Developer
+                        Software Engineer
                     </p>
                 </div>
             </div>
