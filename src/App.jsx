@@ -9,6 +9,7 @@ import Projects from './Pages/Projects';
 import Contact from './Pages/Contact';
 import About from './Pages/About';
 import Resume from './Pages/Resume';
+import CV from './components/CV';
 function App() {
   const location = useLocation();
 
@@ -24,6 +25,7 @@ function App() {
             <Route exact path="/about" element={<About />} />
             <Route exact path="/Contact" element={<Contact />} />
             <Route exact path="/resume" element={<Resume />} />
+            <Route exact path="/cv" element={<CV />} />
           </Routes>
         </AnimatePresence>
       </div>
