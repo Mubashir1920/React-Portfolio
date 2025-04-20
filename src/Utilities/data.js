@@ -19,6 +19,15 @@ const myProjects = [
     type: "Front-End",
   },
   {
+    name: "Anchors Labs LLC",
+    techstack: ["Wordpress", "Elementor", "Lenis", "SliderRev"],
+    desc: "AnchorsLab LLC enables global business. It handle company formation, PayPal accounts, and trademarks—fast, compliant, and hassle-free. Operate worldwide with confidence.",
+    link: "https://anchorlabsllc.com/",
+    github: "https://github.com/Mubashir1920",
+    image: "anchorslab.png",
+    type: "WORDPRESS",
+  },
+  {
     name: "Activemen - Premium Men Sportswear",
     techstack: ["NextJs", "Front End", "LandingPage", "Tailwind CSS"],
     desc: "Activemen is a Premium Mens Sports and Active Wear Clothes distributor based in USA Chicago. They want to boost their sales I worked closely with the client to identify key personas within the target audience and tailored the landing page sections . ",

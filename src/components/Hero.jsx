@@ -10,10 +10,13 @@ const Hero = () => {
                         <div className="h-0.5 w-16 bg-gradient-to-r from-white to-transparent ml-2"></div>
                     </div>
                     <h1 className="text-5xl sm:text-5xl md:text-6xl font-bold mt-4">
-                        Hi, I'm <span className="text-purple-500">Mubashir</span>
+                        Muhammad <span className="text-purple-500">Mubashir</span>
                     </h1>
                     <p className="text-sm sm:text-base md:text-lg text-gray-300 italic mt-2">
-                        Software Engineer
+                        Software Developer
+                    </p>
+                    <p className="text-sm sm:text-base md:text-sm text-gray-300 italic mt-2">
+                        Expert in MERN Stack, NextJs , Wordpress 
                     </p>
                 </div>
             </div>
