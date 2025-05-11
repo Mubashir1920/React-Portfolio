@@ -123,7 +123,7 @@ const myProjects = [
     name: "Amina Art",
     techstack: ["WordPress", "E-commerce Platform"],
     desc: "aminart.shop is an online e-commerce store specializing in beaded bags in Pakistan. The website features a user-friendly interface and responsive design to showcase a wide range of beaded bags, offering a seamless shopping experience.",
-    link: "https://aminart.shop",
+    link: "https://aminart.talhajeweller.pk/",
     github: "https://github.com/Mubashir1920",
     image: "Aminart.jpeg",
     type: "WORDPRESS",
